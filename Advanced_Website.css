@@ -14,9 +14,3 @@ div{margin:20px,10px,20px;}
 .row:after{content:""; display:table;clear: both;}
 /*responsive layout - makes the three columns stack on top of each other on smaller screens (600px wide or less)*/
 @media screen and (max-width: 600px){.colimn{width: 100%;}}
-<style>
-.footer {position: fixed; left: 0; bottom: 0; width: 100%; background-color: white; color: black; text-align: center;}
-</style>
-<div class="footer">
-  <p>Footer</p>
-</div>
